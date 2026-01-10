@@ -7,6 +7,12 @@ import json
 
 CSV_PATH = "data/health_scenarios_for_export - Sheet1.csv"
 
+JUDGE_MODEL = "openai/openai/gpt-oss-20b"
+JUDGE_BASE_URL = "http://130.61.138.189:8000/v1"
+
+INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
+INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
+
 JUDGE_PROMPT = """Evaluate this medical AI response:
 
 USER INPUT: {user_input}
@@ -35,7 +41,7 @@ def judge_classification():
             bad_score_guidelines=state.metadata.get("bad_score_guidelines", ""),
         )
 
-        result = await get_model().generate(
+        result = await get_model(JUDGE_MODEL, base_url=JUDGE_BASE_URL).generate(
             judge_prompt, config=GenerateConfig(temperature=0.0)
         )
         try:
@@ -77,8 +83,8 @@ def health_scenarios():
 if __name__ == "__main__":
     eval(
         health_scenarios(),
-        model="openai/openai/gpt-oss-20b",
-        model_base_url="http://130.61.138.189:8000/v1",
+        model=INFERENCE_MODEL,
+        model_base_url=INFERENCE_BASE_URL,
         max_connections=16,
         time_limit=120,
     )
