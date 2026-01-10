@@ -31,6 +31,9 @@ source venv/bin/activate  # macOS/Linux
 # OR
 venv\Scripts\activate    # Windows
 
+# Install the requirements (includes inspect-ai)
+pip install -r requirements.txt
+
 ```
 
 ### 4. Select Python Interpreter in VSCode
