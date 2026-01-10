@@ -1,5 +1,5 @@
 ## Prerequisites
-- Python 3.11 (required)
+- Python 3.11 or 3.12 (required)
 - Git
 
 ## Setup Instructions
@@ -30,6 +30,9 @@ python3.11 -m venv venv
 source venv/bin/activate  # macOS/Linux
 # OR
 venv\Scripts\activate    # Windows
+
+# Install the requirements (includes inspect-ai)
+pip install -r requirements.txt
 
 ```
 
