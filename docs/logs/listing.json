@@ -1,73 +1,91 @@
 {
-  "2026-01-10T18-54-16+00-00_health-scenarios_5e8LuttYMseV5qyhRAKKsA.eval": {
-    "eval_id": "dx7oueECsHTJWNr47FTYQC",
-    "run_id": "52LcVzb757TM9whUJmLoqj",
+  "2026-01-10T21-57-35+00-00_health-scenarios_MhSGhUrfbsRSLaTAAHTtJk.eval": {
+    "eval_id": "dKkQi2Xky8yD2VMmdUKqs6",
+    "run_id": "Y9w5Ck37vv3mo3xgAaFqgY",
     "task": "health_scenarios",
-    "task_id": "5e8LuttYMseV5qyhRAKKsA",
+    "task_id": "MhSGhUrfbsRSLaTAAHTtJk",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "started_at": "2026-01-10T21:57:35+00:00",
+    "completed_at": "2026-01-10T21:58:18+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 0.95,
+      "params": {}
+    }
+  },
+  "2026-01-10T21-55-07+00-00_health-scenarios_8uohVLLC3wWDMRM2r8SgAq.eval": {
+    "eval_id": "SWqaV6y4b42GzvicUEoi2e",
+    "run_id": "k5aPmw635G9VsKyS2DTfZB",
+    "task": "health_scenarios",
+    "task_id": "8uohVLLC3wWDMRM2r8SgAq",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/mistralai/Magistral-Small-2509",
+    "started_at": "2026-01-10T21:55:07+00:00",
+    "completed_at": "2026-01-10T21:55:46+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 0.95,
+      "params": {}
+    }
+  },
+  "2026-01-10T21-46-53+00-00_health-scenarios_Zo4Cf2pj7EMHuZ5kNArwpk.eval": {
+    "eval_id": "TwqaTmqRHVQCFRJfDYGpCC",
+    "run_id": "LMPhps6sQTbqoaTYyQuiyW",
+    "task": "health_scenarios",
+    "task_id": "Zo4Cf2pj7EMHuZ5kNArwpk",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/Qwen/Qwen3-14B",
+    "started_at": "2026-01-10T21:46:53+00:00",
+    "completed_at": "2026-01-10T21:47:56+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 0.95,
+      "params": {}
+    }
+  },
+  "2026-01-10T20-45-34+00-00_health-scenarios_UKp9WBmQoTNYoUhkwFyMBx.eval": {
+    "eval_id": "GJYBBu7xTJjf3FxpTNeiFf",
+    "run_id": "mYVRuyNjcfB9Rn7FMwk2Vn",
+    "task": "health_scenarios",
+    "task_id": "UKp9WBmQoTNYoUhkwFyMBx",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-10T18:54:16+00:00",
-    "completed_at": "2026-01-10T18:54:46+00:00",
+    "started_at": "2026-01-10T20:45:34+00:00",
+    "completed_at": "2026-01-10T20:45:55+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.35,
+      "value": 0.65,
       "params": {}
     }
   },
-  "2026-01-10T18-27-27+00-00_health-scenarios_7AL5hj448Px2siCgitAptv.eval": {
-    "eval_id": "N4ok4sMX4nkdJeATi5MRFQ",
-    "run_id": "SZAxoAEqR2Y5i6pDvMyRVs",
+  "2026-01-10T20-36-53+00-00_health-scenarios_RXX43iQ6BvZHYgCWwYUwJf.eval": {
+    "eval_id": "YChQkg3DvEEo82zg9gD84e",
+    "run_id": "QbY6VWBYeQZSpne8QSm38c",
     "task": "health_scenarios",
-    "task_id": "7AL5hj448Px2siCgitAptv",
+    "task_id": "RXX43iQ6BvZHYgCWwYUwJf",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-10T18:27:27+00:00",
-    "completed_at": "2026-01-10T18:27:49+00:00",
+    "started_at": "2026-01-10T20:36:53+00:00",
+    "completed_at": "2026-01-10T20:37:19+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.55,
-      "params": {}
-    }
-  },
-  "2026-01-10T18-26-03+00-00_health-scenarios_9EckGrGNDAT6ahqFYJbeJk.eval": {
-    "eval_id": "gtxLxZphFoTXadbJSfiaD8",
-    "run_id": "emLZ5ZRPFx4pzvfDKowHHD",
-    "task": "health_scenarios",
-    "task_id": "9EckGrGNDAT6ahqFYJbeJk",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-10T18:26:03+00:00",
-    "completed_at": "2026-01-10T18:26:24+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 0.4,
-      "params": {}
-    }
-  },
-  "2026-01-10T17-58-16+00-00_sycophancy_gJBYDWsQbu5UNQ33XaW3AY.eval": {
-    "eval_id": "25wxj6J2zCduEFgGEmp7WT",
-    "run_id": "SPcbXN9rk77e3WdwctFr4C",
-    "task": "inspect_evals/sycophancy",
-    "task_id": "gJBYDWsQbu5UNQ33XaW3AY",
-    "task_version": "1.0.0",
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-10T17:58:16+00:00",
-    "completed_at": "2026-01-10T18:00:41+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 0.9090909090909091,
+      "value": 0.65,
       "params": {}
     }
   }

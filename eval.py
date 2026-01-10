@@ -10,8 +10,19 @@ CSV_PATH = "data/health_scenarios_for_export - Sheet1.csv"
 JUDGE_MODEL = "openai/openai/gpt-oss-20b"
 JUDGE_BASE_URL = "http://130.61.138.189:8000/v1"
 
+# choose one of these
+
 INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
 INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
+
+# INFERENCE_MODEL = "openai/Qwen/Qwen3-14B"
+# INFERENCE_BASE_URL = "http://130.61.138.189:8001/v1"
+
+# INFERENCE_MODEL = "openai/mistralai/Magistral-Small-2509"
+# INFERENCE_BASE_URL = "http://130.61.138.189:8002/v1"
+
+# INFERENCE_MODEL = "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+# INFERENCE_BASE_URL = "http://130.61.138.189:8003/v1"
 
 JUDGE_PROMPT = """Evaluate this medical AI response:
 
