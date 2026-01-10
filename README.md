@@ -1,5 +1,5 @@
 ## Prerequisites
-- Python 3.11 (required)
+- Python 3.11 or 3.12 (required)
 - Git
 
 ## Setup Instructions

@@ -34,9 +34,9 @@ ENV/
 *~
 
 # Inspect AI
-results/
-logs/
-*.log
+#results/
+#logs/
+#*.log
 
 # Environment variables
 .env
