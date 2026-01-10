@@ -41,6 +41,26 @@ pip install -r requirements.txt
 - Type "Python: Select Interpreter"
 - Choose `./venv/bin/python` (Python 3.11.x)
 
+## How to work with Inspect
+
+### Run the benchmark
+```bash
+python eval.py
+```
+
+### View the benchmark run (log)
+You can view it via the VSCode extension "Inspect AI"
+Alternative way:
+```bash
+# generate a html page
+inspect view bundle   --log-dir ./logs   --output-dir ./logs_www --overwrite
+# start a local webserver
+python -m http.server 8080
+# go to http://localhost:8080 in your browser then choose "logs_www". you should see benchmark runs now.
+```
+
+
 ## Resources
 - [Inspect AI Documentation](https://ukgovernmentbeis.github.io/inspect_ai/)
 - [Team Wiki](link-to-your-wiki)
+
