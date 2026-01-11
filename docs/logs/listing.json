@@ -1,4 +1,76 @@
 {
+  "2026-01-11T11-16-45+00-00_health-scenarios_VeaKNQaN9t8oS3HgaKiX97.eval": {
+    "eval_id": "BBTSxikF87mihypk5mgR3U",
+    "run_id": "D35ZuWRKPjKfG7zMieyRWE",
+    "task": "health_scenarios",
+    "task_id": "VeaKNQaN9t8oS3HgaKiX97",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/Qwen/Qwen3-14B",
+    "started_at": "2026-01-11T11:16:45+00:00",
+    "completed_at": "2026-01-11T11:17:48+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 2.0,
+      "params": {}
+    }
+  },
+  "2026-01-11T11-15-35+00-00_health-scenarios_khUvAHVDUdXbAgL8Po2HwL.eval": {
+    "eval_id": "cVxtPohsDm2QnpDjqkZhTB",
+    "run_id": "8ce8jLDNdGxgzsQDo2WNC9",
+    "task": "health_scenarios",
+    "task_id": "khUvAHVDUdXbAgL8Po2HwL",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/openai/gpt-oss-20b",
+    "started_at": "2026-01-11T11:15:36+00:00",
+    "completed_at": "2026-01-11T11:15:59+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 0.8,
+      "params": {}
+    }
+  },
+  "2026-01-11T11-04-55+00-00_health-scenarios_JqHokp3iMG2KfrTNhqUQLu.eval": {
+    "eval_id": "KS8yrpJNkQqhiWCbbf9qby",
+    "run_id": "ZdqudUPEhKZN5AXdjwsQvz",
+    "task": "health_scenarios",
+    "task_id": "JqHokp3iMG2KfrTNhqUQLu",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/Qwen/Qwen3-14B",
+    "started_at": "2026-01-11T11:04:55+00:00",
+    "completed_at": "2026-01-11T11:05:57+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 1.8,
+      "params": {}
+    }
+  },
+  "2026-01-11T10-57-32+00-00_health-scenarios_6zbDUBjmthDGrcxuEA7WXE.eval": {
+    "eval_id": "MH8bZ9QRdtf4QdiNpFaPSL",
+    "run_id": "64uwwZSo3kZHRMraPjM4fg",
+    "task": "health_scenarios",
+    "task_id": "6zbDUBjmthDGrcxuEA7WXE",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/openai/gpt-oss-20b",
+    "started_at": "2026-01-11T10:57:32+00:00",
+    "completed_at": "2026-01-11T10:58:00+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 1.4,
+      "params": {}
+    }
+  },
   "2026-01-10T21-57-35+00-00_health-scenarios_MhSGhUrfbsRSLaTAAHTtJk.eval": {
     "eval_id": "dKkQi2Xky8yD2VMmdUKqs6",
     "run_id": "Y9w5Ck37vv3mo3xgAaFqgY",
