@@ -1,307 +1,217 @@
 {
-  "2026-01-11T15-04-27+00-00_health-scenarios_CdrfNfvSbnWRJHSRchA8QA.eval": {
-    "eval_id": "ER25GMZHXmB6GL6CKs6WQe",
-    "run_id": "5ZN5bmQU3WuxNgCbbZeNeQ",
+  "2026-01-11T17-26-52+00-00_health-scenarios_ke8RdeFZ8jQwQjkR2DsrHk.eval": {
+    "eval_id": "XCXeuBECSqNMxGNPeDdQ3o",
+    "run_id": "9z7QgL7QCbbgmdsZ6jDBYj",
     "task": "health_scenarios",
-    "task_id": "CdrfNfvSbnWRJHSRchA8QA",
+    "task_id": "ke8RdeFZ8jQwQjkR2DsrHk",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-    "started_at": "2026-01-11T15:04:27+00:00",
-    "completed_at": "2026-01-11T15:07:44+00:00",
+    "started_at": "2026-01-11T17:26:52+00:00",
+    "completed_at": "2026-01-11T17:31:04+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 1.6,
+      "value": 1.6600000000000001,
       "params": {}
     }
   },
-  "2026-01-11T14-54-50+00-00_health-scenarios_awmy7kUFbFyiMVNvHrvBXx.eval": {
-    "eval_id": "BWzHd3HMNSah2psxHBKBC8",
-    "run_id": "gx7tKWR5TsXBmaikuGkyCt",
+  "2026-01-11T17-23-05+00-00_health-scenarios_Y3oVhFEywFjdGxanJD59h6.eval": {
+    "eval_id": "WDMnwLEYJVnrvcAR6tPuir",
+    "run_id": "9z7QgL7QCbbgmdsZ6jDBYj",
     "task": "health_scenarios",
-    "task_id": "awmy7kUFbFyiMVNvHrvBXx",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/mistralai/Magistral-Small-2509",
-    "started_at": "2026-01-11T14:54:50+00:00",
-    "completed_at": "2026-01-11T14:56:31+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": -0.3333333333333333,
-      "params": {}
-    }
-  },
-  "2026-01-11T12-35-28+00-00_health-scenarios_ioP6Vf8jsvw3EHsgaMhaJu.eval": {
-    "eval_id": "jxDs6EtdgPAj6DDJ6VQ258",
-    "run_id": "SYQx5qfUSLE5BLrCG7MjCN",
-    "task": "health_scenarios",
-    "task_id": "ioP6Vf8jsvw3EHsgaMhaJu",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/Qwen/Qwen3-14B",
-    "started_at": "2026-01-11T12:35:28+00:00",
-    "completed_at": "2026-01-11T12:39:00+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 0.7111111111111111,
-      "params": {}
-    }
-  },
-  "2026-01-11T12-32-12+00-00_health-scenarios_SnGcXVdvgpjh8g5u8VsLEQ.eval": {
-    "eval_id": "J2LVNDRBsqimeuwpdAJTY4",
-    "run_id": "DtA7zXL3qbzJN7RrZrLXLr",
-    "task": "health_scenarios",
-    "task_id": "SnGcXVdvgpjh8g5u8VsLEQ",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-11T12:32:13+00:00",
-    "completed_at": "2026-01-11T12:34:12+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 1.2333333333333334,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-38-14+00-00_health-scenarios_nrSPZVVGjGk4zxeKokUMA5.eval": {
-    "eval_id": "mByFASYE8rSufjUndfq6uw",
-    "run_id": "9yAbMpwfbCSc339TZQU6NU",
-    "task": "health_scenarios",
-    "task_id": "nrSPZVVGjGk4zxeKokUMA5",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/Qwen/Qwen3-14B",
-    "started_at": "2026-01-11T11:38:14+00:00",
-    "completed_at": "2026-01-11T11:39:10+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 1.0,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-36-39+00-00_health-scenarios_MnLwZiqERTCdurDxmUsycT.eval": {
-    "eval_id": "KkoKW2ss98BpfjiEF6WnGq",
-    "run_id": "MJsqdsxXzxAHDJjV2zDVic",
-    "task": "health_scenarios",
-    "task_id": "MnLwZiqERTCdurDxmUsycT",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-11T11:36:39+00:00",
-    "completed_at": "2026-01-11T11:37:14+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 1.1111111111111112,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-33-08+00-00_health-scenarios_XD2TYbevNZSi7PP5XxJYzL.eval": {
-    "eval_id": "4Cx2ZbfXQzDubJZjKH4Kde",
-    "run_id": "iQDttyz5VdjQNckHgjzogp",
-    "task": "health_scenarios",
-    "task_id": "XD2TYbevNZSi7PP5XxJYzL",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/Qwen/Qwen3-14B",
-    "started_at": "2026-01-11T11:33:08+00:00",
-    "completed_at": "2026-01-11T11:34:17+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 2.0,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-31-11+00-00_health-scenarios_YNRB33cNiCS2m9oSGah4xr.eval": {
-    "eval_id": "Y5pQF29maJioHzQj9Ue3Rc",
-    "run_id": "TsBqJrCrTxR4h88TVJjPix",
-    "task": "health_scenarios",
-    "task_id": "YNRB33cNiCS2m9oSGah4xr",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-11T11:31:11+00:00",
-    "completed_at": "2026-01-11T11:31:38+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 1.05,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-16-45+00-00_health-scenarios_VeaKNQaN9t8oS3HgaKiX97.eval": {
-    "eval_id": "BBTSxikF87mihypk5mgR3U",
-    "run_id": "D35ZuWRKPjKfG7zMieyRWE",
-    "task": "health_scenarios",
-    "task_id": "VeaKNQaN9t8oS3HgaKiX97",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/Qwen/Qwen3-14B",
-    "started_at": "2026-01-11T11:16:45+00:00",
-    "completed_at": "2026-01-11T11:17:48+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 2.0,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-15-35+00-00_health-scenarios_khUvAHVDUdXbAgL8Po2HwL.eval": {
-    "eval_id": "cVxtPohsDm2QnpDjqkZhTB",
-    "run_id": "8ce8jLDNdGxgzsQDo2WNC9",
-    "task": "health_scenarios",
-    "task_id": "khUvAHVDUdXbAgL8Po2HwL",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-11T11:15:36+00:00",
-    "completed_at": "2026-01-11T11:15:59+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 0.8,
-      "params": {}
-    }
-  },
-  "2026-01-11T11-04-55+00-00_health-scenarios_JqHokp3iMG2KfrTNhqUQLu.eval": {
-    "eval_id": "KS8yrpJNkQqhiWCbbf9qby",
-    "run_id": "ZdqudUPEhKZN5AXdjwsQvz",
-    "task": "health_scenarios",
-    "task_id": "JqHokp3iMG2KfrTNhqUQLu",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/Qwen/Qwen3-14B",
-    "started_at": "2026-01-11T11:04:55+00:00",
-    "completed_at": "2026-01-11T11:05:57+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 1.8,
-      "params": {}
-    }
-  },
-  "2026-01-11T10-57-32+00-00_health-scenarios_6zbDUBjmthDGrcxuEA7WXE.eval": {
-    "eval_id": "MH8bZ9QRdtf4QdiNpFaPSL",
-    "run_id": "64uwwZSo3kZHRMraPjM4fg",
-    "task": "health_scenarios",
-    "task_id": "6zbDUBjmthDGrcxuEA7WXE",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-11T10:57:32+00:00",
-    "completed_at": "2026-01-11T10:58:00+00:00",
-    "primary_metric": {
-      "name": "mean",
-      "value": 1.4,
-      "params": {}
-    }
-  },
-  "2026-01-10T21-57-35+00-00_health-scenarios_MhSGhUrfbsRSLaTAAHTtJk.eval": {
-    "eval_id": "dKkQi2Xky8yD2VMmdUKqs6",
-    "run_id": "Y9w5Ck37vv3mo3xgAaFqgY",
-    "task": "health_scenarios",
-    "task_id": "MhSGhUrfbsRSLaTAAHTtJk",
+    "task_id": "Y3oVhFEywFjdGxanJD59h6",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-    "started_at": "2026-01-10T21:57:35+00:00",
-    "completed_at": "2026-01-10T21:58:18+00:00",
+    "started_at": "2026-01-11T17:23:05+00:00",
+    "completed_at": "2026-01-11T17:26:52+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.95,
+      "value": 1.41,
       "params": {}
     }
   },
-  "2026-01-10T21-55-07+00-00_health-scenarios_8uohVLLC3wWDMRM2r8SgAq.eval": {
-    "eval_id": "SWqaV6y4b42GzvicUEoi2e",
-    "run_id": "k5aPmw635G9VsKyS2DTfZB",
+  "2026-01-11T17-20-14+00-00_health-scenarios_YuRBNmiQmM8BnCdoE7Vp5w.eval": {
+    "eval_id": "386RxpELiLCpUpvkzxk8tq",
+    "run_id": "9z7QgL7QCbbgmdsZ6jDBYj",
     "task": "health_scenarios",
-    "task_id": "8uohVLLC3wWDMRM2r8SgAq",
+    "task_id": "YuRBNmiQmM8BnCdoE7Vp5w",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "started_at": "2026-01-11T17:20:14+00:00",
+    "completed_at": "2026-01-11T17:23:05+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 1.57,
+      "params": {}
+    }
+  },
+  "2026-01-11T17-17-09+00-00_health-scenarios_NwDaezL5X8gorzR3ZUBNgr.eval": {
+    "eval_id": "eLqMrHLmj3HEhGm9V9RUoz",
+    "run_id": "ZL2NYwV8MLnESDLFY4vwcx",
+    "task": "health_scenarios",
+    "task_id": "NwDaezL5X8gorzR3ZUBNgr",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/mistralai/Magistral-Small-2509",
-    "started_at": "2026-01-10T21:55:07+00:00",
-    "completed_at": "2026-01-10T21:55:46+00:00",
+    "started_at": "2026-01-11T17:17:09+00:00",
+    "completed_at": "2026-01-11T17:20:05+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.95,
+      "value": 1.4000000000000004,
       "params": {}
     }
   },
-  "2026-01-10T21-46-53+00-00_health-scenarios_Zo4Cf2pj7EMHuZ5kNArwpk.eval": {
-    "eval_id": "TwqaTmqRHVQCFRJfDYGpCC",
-    "run_id": "LMPhps6sQTbqoaTYyQuiyW",
+  "2026-01-11T17-15-16+00-00_health-scenarios_Fkum9yCMMezNWhbZASyV3e.eval": {
+    "eval_id": "EaSLAV8KCcfY3YehuSzvJj",
+    "run_id": "ZL2NYwV8MLnESDLFY4vwcx",
     "task": "health_scenarios",
-    "task_id": "Zo4Cf2pj7EMHuZ5kNArwpk",
+    "task_id": "Fkum9yCMMezNWhbZASyV3e",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/mistralai/Magistral-Small-2509",
+    "started_at": "2026-01-11T17:15:16+00:00",
+    "completed_at": "2026-01-11T17:17:09+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": -0.4999999999999999,
+      "params": {}
+    }
+  },
+  "2026-01-11T17-13-00+00-00_health-scenarios_DuW9rmMPPJvzfLhHMvAcz6.eval": {
+    "eval_id": "SSvNenj4y3YQ6jibv4M46x",
+    "run_id": "ZL2NYwV8MLnESDLFY4vwcx",
+    "task": "health_scenarios",
+    "task_id": "DuW9rmMPPJvzfLhHMvAcz6",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/mistralai/Magistral-Small-2509",
+    "started_at": "2026-01-11T17:13:00+00:00",
+    "completed_at": "2026-01-11T17:15:15+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 1.7899999999999998,
+      "params": {}
+    }
+  },
+  "2026-01-11T17-06-48+00-00_health-scenarios_YRLf7v6aNeGiGcBAoS3qXE.eval": {
+    "eval_id": "J6NW2BinBGjFRtgcAKFgom",
+    "run_id": "L3PgGSXXtT5uvNRB8p9zCH",
+    "task": "health_scenarios",
+    "task_id": "YRLf7v6aNeGiGcBAoS3qXE",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/Qwen/Qwen3-14B",
-    "started_at": "2026-01-10T21:46:53+00:00",
-    "completed_at": "2026-01-10T21:47:56+00:00",
+    "started_at": "2026-01-11T17:06:48+00:00",
+    "completed_at": "2026-01-11T17:11:44+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.95,
+      "value": 1.7899999999999998,
       "params": {}
     }
   },
-  "2026-01-10T20-45-34+00-00_health-scenarios_UKp9WBmQoTNYoUhkwFyMBx.eval": {
-    "eval_id": "GJYBBu7xTJjf3FxpTNeiFf",
-    "run_id": "mYVRuyNjcfB9Rn7FMwk2Vn",
+  "2026-01-11T17-02-54+00-00_health-scenarios_H7mKnvXFNjAiUUnkJLKbJc.eval": {
+    "eval_id": "XFZ9fC6jqp8cgKFKiutAik",
+    "run_id": "L3PgGSXXtT5uvNRB8p9zCH",
     "task": "health_scenarios",
-    "task_id": "UKp9WBmQoTNYoUhkwFyMBx",
+    "task_id": "H7mKnvXFNjAiUUnkJLKbJc",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/Qwen/Qwen3-14B",
+    "started_at": "2026-01-11T17:02:54+00:00",
+    "completed_at": "2026-01-11T17:06:47+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 0.9399999999999998,
+      "params": {}
+    }
+  },
+  "2026-01-11T16-58-54+00-00_health-scenarios_nsjbVQVusypGM3xen28DNH.eval": {
+    "eval_id": "3t3RZcSBbVG883qTLKfCQa",
+    "run_id": "L3PgGSXXtT5uvNRB8p9zCH",
+    "task": "health_scenarios",
+    "task_id": "nsjbVQVusypGM3xen28DNH",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/Qwen/Qwen3-14B",
+    "started_at": "2026-01-11T16:58:54+00:00",
+    "completed_at": "2026-01-11T17:02:53+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 1.8299999999999996,
+      "params": {}
+    }
+  },
+  "2026-01-11T16-54-51+00-00_health-scenarios_fhBruuyBdFpa4PBCTXJhZ3.eval": {
+    "eval_id": "SZtayN4bir54HqBaWGyre6",
+    "run_id": "W5J9CkFsWUJ5FNfkLN3FnC",
+    "task": "health_scenarios",
+    "task_id": "fhBruuyBdFpa4PBCTXJhZ3",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-10T20:45:34+00:00",
-    "completed_at": "2026-01-10T20:45:55+00:00",
+    "started_at": "2026-01-11T16:54:52+00:00",
+    "completed_at": "2026-01-11T16:58:30+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.65,
+      "value": 1.41,
       "params": {}
     }
   },
-  "2026-01-10T20-36-53+00-00_health-scenarios_RXX43iQ6BvZHYgCWwYUwJf.eval": {
-    "eval_id": "YChQkg3DvEEo82zg9gD84e",
-    "run_id": "QbY6VWBYeQZSpne8QSm38c",
+  "2026-01-11T16-45-52+00-00_health-scenarios_5ktHAZL2ewVJM98GJeVweF.eval": {
+    "eval_id": "TCvCYFJaVqDA23fv32xanh",
+    "run_id": "G2gAVN29fdj638zUZiPzXu",
     "task": "health_scenarios",
-    "task_id": "RXX43iQ6BvZHYgCWwYUwJf",
+    "task_id": "5ktHAZL2ewVJM98GJeVweF",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/openai/gpt-oss-20b",
-    "started_at": "2026-01-10T20:36:53+00:00",
-    "completed_at": "2026-01-10T20:37:19+00:00",
+    "started_at": "2026-01-11T16:45:52+00:00",
+    "completed_at": "2026-01-11T16:47:21+00:00",
     "primary_metric": {
       "name": "mean",
-      "value": 0.65,
+      "value": 1.36,
+      "params": {}
+    }
+  },
+  "2026-01-11T16-44-42+00-00_health-scenarios_BxbWdTJpXMEtQ5dZdXjcBm.eval": {
+    "eval_id": "kGeqZbN57Lv4vxNLRejpRj",
+    "run_id": "G2gAVN29fdj638zUZiPzXu",
+    "task": "health_scenarios",
+    "task_id": "BxbWdTJpXMEtQ5dZdXjcBm",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/openai/gpt-oss-20b",
+    "started_at": "2026-01-11T16:44:42+00:00",
+    "completed_at": "2026-01-11T16:45:52+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 0.86,
       "params": {}
     }
   }
