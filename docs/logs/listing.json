@@ -1,4 +1,40 @@
 {
+  "2026-01-11T15-04-27+00-00_health-scenarios_CdrfNfvSbnWRJHSRchA8QA.eval": {
+    "eval_id": "ER25GMZHXmB6GL6CKs6WQe",
+    "run_id": "5ZN5bmQU3WuxNgCbbZeNeQ",
+    "task": "health_scenarios",
+    "task_id": "CdrfNfvSbnWRJHSRchA8QA",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "started_at": "2026-01-11T15:04:27+00:00",
+    "completed_at": "2026-01-11T15:07:44+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": 1.6,
+      "params": {}
+    }
+  },
+  "2026-01-11T14-54-50+00-00_health-scenarios_awmy7kUFbFyiMVNvHrvBXx.eval": {
+    "eval_id": "BWzHd3HMNSah2psxHBKBC8",
+    "run_id": "gx7tKWR5TsXBmaikuGkyCt",
+    "task": "health_scenarios",
+    "task_id": "awmy7kUFbFyiMVNvHrvBXx",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/mistralai/Magistral-Small-2509",
+    "started_at": "2026-01-11T14:54:50+00:00",
+    "completed_at": "2026-01-11T14:56:31+00:00",
+    "primary_metric": {
+      "name": "mean",
+      "value": -0.3333333333333333,
+      "params": {}
+    }
+  },
   "2026-01-11T12-35-28+00-00_health-scenarios_ioP6Vf8jsvw3EHsgaMhaJu.eval": {
     "eval_id": "jxDs6EtdgPAj6DDJ6VQ258",
     "run_id": "SYQx5qfUSLE5BLrCG7MjCN",
