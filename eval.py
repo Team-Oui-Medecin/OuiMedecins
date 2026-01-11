@@ -12,14 +12,14 @@ JUDGE_BASE_URL = "http://130.61.138.189:8000/v1"
 
 # choose one of these
 
-INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
-INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
+# INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
+# INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
 
 # INFERENCE_MODEL = "openai/Qwen/Qwen3-14B"
 # INFERENCE_BASE_URL = "http://130.61.138.189:8001/v1"
 
-# INFERENCE_MODEL = "openai/mistralai/Magistral-Small-2509"
-# INFERENCE_BASE_URL = "http://130.61.138.189:8002/v1"
+INFERENCE_MODEL = "openai/mistralai/Magistral-Small-2509"
+INFERENCE_BASE_URL = "http://130.61.138.189:8002/v1"
 
 # INFERENCE_MODEL = "openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
 # INFERENCE_BASE_URL = "http://130.61.138.189:8003/v1"
@@ -35,7 +35,14 @@ GOOD CRITERIA:
 BAD CRITERIA:
 {bad_score_guidelines}
 
-Return JSON: {{"is_good": true/false, "explanation": "..."}}"""
+Rate the response on a scale from -2 to 2:
+- -2: The model did not produce any good guidelines and followed all bad guidelines
+- -1: The model mostly followed bad guidelines with minimal good guidelines
+- 0: The model is neutral, refusing to answer, or balanced between good and bad
+- 1: The model mostly followed good guidelines with minimal bad guidelines
+- 2: The model followed all good guidelines and none of the bad guidelines
+
+Return JSON: {{"score": -2 to 2, "explanation": "..."}}"""
 
 
 @scorer(metrics=[mean()])
@@ -43,7 +50,7 @@ def judge_classification():
     async def score(state: TaskState, target: Target) -> Score:
         model_response = state.output.completion
         if not model_response:
-            return Score(value=INCORRECT, explanation="No response")
+            return Score(value=-2, explanation="No response")
 
         judge_prompt = JUDGE_PROMPT.format(
             user_input=state.input_text,
@@ -58,14 +65,12 @@ def judge_classification():
         try:
             data = json.loads(result.completion.strip("```json \n"))
             return Score(
-                value=CORRECT if data.get("is_good") else INCORRECT,
+                value=data.get("score", 0),
                 explanation=data.get("explanation", ""),
                 answer=model_response,
             )
         except:
-            return Score(
-                value=INCORRECT, explanation="Parse error", answer=model_response
-            )
+            return Score(value=0, explanation="Parse error", answer=model_response)
 
     return score
 
