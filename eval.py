@@ -5,12 +5,14 @@ from inspect_ai.scorer import CORRECT, INCORRECT, Score, Scorer, Target, mean, s
 from inspect_ai.solver import TaskState, generate
 import json
 
-CSV_PATH = "data/health_scenarios_for_export - Sheet1.csv"
+### choose one data source
+# CSV_PATH = "data/health_scenarios_for_export - Sheet1.csv"
+CSV_PATH = "data/health_scenarios amplified by claude 4.5 opus.csv"
 
 JUDGE_MODEL = "openai/openai/gpt-oss-20b"
 JUDGE_BASE_URL = "http://130.61.138.189:8000/v1"
 
-# choose one of these
+### choose one inference model
 
 INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
 INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
