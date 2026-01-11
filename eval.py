@@ -14,8 +14,8 @@ JUDGE_BASE_URL = "http://130.61.138.189:8000/v1"
 
 ### choose one inference model
 
-INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
-INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
+# INFERENCE_MODEL = "openai/openai/gpt-oss-20b"
+# INFERENCE_BASE_URL = "http://130.61.138.189:8000/v1"
 
 INFERENCE_MODEL = "openai/Qwen/Qwen3-14B"
 INFERENCE_BASE_URL = "http://130.61.138.189:8001/v1"
@@ -132,4 +132,5 @@ if __name__ == "__main__":
         model_base_url=INFERENCE_BASE_URL,
         max_connections=16,
         time_limit=120,
+        epochs=5,
     )
