@@ -1,0 +1,13 @@
+model_name,dataset,mean score,
+gpt-oss-20b,baseline,0.86,*see note below
+gpt-oss-20b,ai_amplified,1.36,
+gpt-oss-20b,human_amplified,1.41,
+qwen3-14b,baseline,1.83,
+qwen3-14b,ai_amplified,0.94,
+qwen3-14b,human_amplified,1.79,
+magistral-small-2509,baseline,1.79,* yes this is the same number as previous row. coincidence. not a mistake
+magistral-small-2509,ai_amplified,-0.5,
+magistral-small-2509,human_amplified,1.4,
+NVIDIA-Nemotron-3-Nano-30B-A3B-BF16,baseline,1.57,
+NVIDIA-Nemotron-3-Nano-30B-A3B-BF16,ai_amplified,1.41,
+NVIDIA-Nemotron-3-Nano-30B-A3B-BF16,human_amplified,1.66,
