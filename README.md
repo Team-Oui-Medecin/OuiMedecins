@@ -1,3 +1,7 @@
+# View Our Latest Results
+- [Explore them here]([url](https://team-oui-medecin.github.io/OuiMedecins/#/logs/ 
+))
+
 ## Prerequisites
 - Python 3.11 or 3.12 (required)
 - Git
