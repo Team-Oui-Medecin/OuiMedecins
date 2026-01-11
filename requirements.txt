@@ -34,6 +34,7 @@ idna==3.11
 ijson==3.4.0.post0
 inspect_ai==0.3.160
 inspect_evals==0.3.104
+inspect_viz==0.3.5
 Jinja2==3.1.6
 jiter==0.12.0
 jmespath==1.0.1

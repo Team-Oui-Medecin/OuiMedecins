@@ -59,6 +59,17 @@ python -m http.server 8080
 # go to http://localhost:8080 in your browser then choose "logs_www". you should see benchmark runs now.
 ```
 
+### Run the visualization
+```bash
+python data_for_visualization.py
+```
+
+### View visualization
+```bash
+# start a local webserver
+python -m http.server 8080
+# go to http://localhost:8080/visualization.html in your browser and you should see the data visualization.
+```
 
 ## Resources
 - [Inspect AI Documentation](https://ukgovernmentbeis.github.io/inspect_ai/)
